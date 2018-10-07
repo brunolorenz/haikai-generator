@@ -5,6 +5,7 @@ var r = 89;
 var g = 76;
 var b = 41;
 
+
 function preload () {
   myFont = loadFont('assets/Lora-Italic.ttf')
   myFonttitulo = loadFont('assets/BreeSerif-Regular.ttf')
@@ -33,6 +34,7 @@ function windowResized() {
   textSize(20);
   textAlign(CENTER);
   text("clique na tela",windowWidth/2,windowHeight/2);
+  window.location.reload(true)
 }
 
 function touchStarted() {
