@@ -52,6 +52,7 @@ textStyle(BOLD);
 textAlign(CENTER);
 textFont(myFont);
 background(255,253,234);
+
 fill(r,g,b,255);
 text(linha1, centrov, centroh-50);
 fill(r,g,b,200);
