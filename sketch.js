@@ -20,9 +20,14 @@ function setup() {
   background(255,253,234);
   textFont(myFont);
   fill(31,31,122,100);
-  textSize(20);
+  textSize(30);
   textAlign(CENTER);
-  text("clique na tela",windowWidth/2,windowHeight/2);
+  text("clique na tela para gerar seu haikai.",windowWidth/2,windowHeight/2,);
+
+  textFont(myFonttitulo);
+  textSize(12);
+  fill(31,31,31,150);
+  text("Pressione espaço para salvar o poema em uma imagem.", windowWidth/2, windowHeight/2+40);
 
 }
 
