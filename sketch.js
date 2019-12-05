@@ -69,4 +69,6 @@ text("S E U  H A I K A I   nº "+round(catalogo), centrov, 50);
 
 function keyReleased() {
   saveCanvas();
+
+  console.log(5+6);
 }
